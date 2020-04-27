@@ -1,0 +1,65 @@
+push
+move
+130 280 0
+push
+rotate
+x -70
+rotate
+y -10
+torus
+0 0 0 10 70
+sphere
+0 0 0 25
+pop
+push
+move
+0 90 0
+rotate
+y 45
+box
+-100 5 5 200 10 10
+pop
+push
+move
+200 90 0
+rotate
+x -30
+rotate
+y 45
+move
+0 20 0
+box
+-100 5 5 200 10 10
+pop
+push
+move
+200 0 0
+rotate
+x -70
+rotate
+y -10
+torus
+0 0 0 10 70
+sphere
+0 0 0 25
+pop
+push
+move
+70 0 -10
+rotate
+y -20
+box
+0 0 0 70 10 10
+pop
+move
+80 -175 0
+rotate
+x -70
+rotate
+y -10
+move
+25 0 0 
+sphere
+0 0 0 80
+save
+myImg.png
